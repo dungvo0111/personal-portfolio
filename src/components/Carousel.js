@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import randomquote from '../img/randomquote.png'
+import Fortnite from '../img/Fortnite.jpg'
 import speedtyping from '../img/speedtyping.png'
 import todolist from '../img/todolist.png'
 import Card from './Card'
@@ -28,10 +28,10 @@ export default class Carousel extends Component {
                 },
                 {
                     id: 2,
-                    title: 'Random Quote Generator',
-                    subTitle: 'Using React',
-                    imgSrc: randomquote,
-                    link: 'https://github.com/dungvo0111/quotegenerator',
+                    title: 'Online Shopping Site',
+                    subTitle: 'Using React, Express',
+                    imgSrc: Fortnite,
+                    link: 'https://shopwebtest.herokuapp.com/',
                     selected: false
                 }
 
